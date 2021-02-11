@@ -14,9 +14,10 @@ namespace GoogleTest1
     {
         private static string[] Scopes = { DriveService.Scope.Drive };
         private static string ApplicationName = "Test1";
-        private static string FolderID = "1z637kX0QL1-TRgBmOhjDKD5pWwQKIYdr";
-        private static string Nazwa = "TestowyPlik_1";
-        private static string Sciezka = @"C:\NaDyskGoogle\September.mp3";
+        private static string FolderID = "1z637kX0QL1-TRgBmOhjDKD5pWwQKIYdr"; //nazwa folderu, do którego chcemy umieścić plik
+        private static string Nazwa = "TestowyPlik_1"; // jak plik ma być nazwany
+        private static string Sciezka = @"C:\NaDyskGoogle\September.mp3"; //ścieżka do pliku
+        /*Typ pliku, aby mógł być odczytany przez Google Drive*/
         //private static string Rodzaj = "application/zip";
         //private static string Rodzaj = "type:image/gif";
         private static string Rodzaj = "type:audio/mpeg";
